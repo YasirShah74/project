@@ -1,0 +1,45 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    
+}
+.calc-app {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 250px;
+    text-align: right;
+    border-radius: 50%;
+
+}
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+    color: blanchedalmond;
+}
+input[type="text"] {
+    height: 60px;
+    width: 240px;
+    
+}
+#clear {
+grid-column: 1/3;
+grid-row: 1;
+background-color: orange;
+}
+#ans {
+   
+    background-color: orange;
+}
+#oprate {
+    background-color: orange;
+
+}
+#del {
+    background-color: orange;
+
+}
+button {
+    background-color: #262834;
+    color: white;
+}
